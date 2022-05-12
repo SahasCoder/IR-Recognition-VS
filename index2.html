@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>
+        IR Recognition VS
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://neovision.fr/wp-content/uploads/2021/02/Logo-Recherche-Visuelle-1-400x400.png">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="main.js"></script>
+</head>
+
+<body class="body_index2" onload="popUp()">
+    <div class="container">
+        <center>
+            <h1 class="btn-default">IR Recognition VS<img
+                    src="https://neovision.fr/wp-content/uploads/2021/02/Logo-Recherche-Visuelle-1-400x400.png"></h1>
+            <br>
+            <hr>
+            <br>
+            <p class="btn-danger">Case Study between Google Lens and MobileNet</p>
+            <img class="caseStudy_appORwebsite_logo btn btn-default" src="data:image/png;base64,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">
+            <br>
+            <br>
+            <p class="pTag">And</p>
+            <br>
+            <p class="caseStudy_appORwebsite_logo btn btn-primary" style="font-size: 30px;"><b>MobileNet</b></p>
+            <br>
+            <br>
+            <ol>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img width="250"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7mwEMln0ZEH0ulHyFuylslq7lwtW7q6rCkA&usqp=CAU">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12 h5name_space">
+                        Output on<b> Google Lens - Water Bottle</b>
+                        <span></span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12 h5name_space">
+                        Output on<b> MobileNet - Punching Bag</b>
+                        <span></span>
+                    </h5>
+                    <h4 class="result">Google lens is more accurate then MobileNet</h4>
+                </div>
+                <br>
+                <h1>____________________________________</h1>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img width="250"
+                            src="https://cdn.vox-cdn.com/thumbor/3o5bkD-T3oQ3EIfXotA4k9P97TY=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/22443013/5.png">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12 h5name_space">
+                        Output on<b> Google Lens - Headphones</b>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12 h5name_space">
+                        Output on<b> MobileNet - Microphone , Mike</b>
+                    </h5>
+                    <h4 class="result">Both are accurate!!</h4>
+                </div>
+                <br>
+                <h1>____________________________________</h1>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img width="250"
+                            src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1vYmlsZSUyMHBob25lfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12 h5name_space">
+                        Output on<b> Google Lens - Phone</b>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12 h5name_space">
+                        Output on<b> MobileNet - Home Theater</b>
+                    </h5>
+                    <h4 class="result">Google lens is more accurate then MobileNet</h4>
+                </div>
+                <br>
+                <h1>____________________________________</h1>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img width="250"
+                            src="https://m.media-amazon.com/images/I/718ETwvLVOL._SL1500_.jpg">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12 h5name_space">
+                        Output on<b> Google Lens - Laptop</b>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12 h5name_space">
+                        Output on<b> MobileNet - Monitor</b>
+                    </h5>
+                    <h4 class="result">Google lens is more accurate then MobileNet</h4>
+                </div>
+            </ol>
+        </center>
+    </div>
+            <div class="divFooter">
+                Developed by: Sahas Rai
+            </div>
+</body>
+
+</html>

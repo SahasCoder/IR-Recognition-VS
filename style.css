@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://media.istockphoto.com/photos/pastel-colored-light-blue-backgrounds-picture-id1334563669?k=20&m=1334563669&s=612x612&w=0&h=uBqhK8ETiWQsYMmObllkbqK4YnFhK_kuINXCjqANj_s=);
+    background-size: cover;
+    background-position: center;
+}
+
+.body_index2{
+    background-image: url(https://media.istockphoto.com/photos/pastel-colored-light-blue-backgrounds-picture-id1334563669?k=20&m=1334563669&s=612x612&w=0&h=uBqhK8ETiWQsYMmObllkbqK4YnFhK_kuINXCjqANj_s=);
+    background-size: cover;
+    background-position: center;
+}
+
+.test_image_and_result{
+    background-color: rgba(169, 169, 169, 0.541);
+}
+
+.h5name_space{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.divFooter{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 255, 255, 0.635);
+    color: black;
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.result{
+    color: blue;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.caseStudy_appORwebsite_logo{
+    border-radius: 12px;
+    width: 350px;
+}
+
+.pTag{
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
